@@ -128,15 +128,3 @@ where T: Ord + ToString {
         .expect("Failure to write .dot file to 'result.dot'");
     }
 }
-
-fn main() {
-    let tree = Tree::new()
-        .insert(5)
-        .insert(1)
-        .insert(10)
-        .insert(3);
-    
-    tree.write_dot_file();
-    println!("{:#?}", tree);
-}
-
