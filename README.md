@@ -1,2 +1,2 @@
 # tree-to-dot
-Simple rust program that serializes any binary tree to graphviz's .dot format. 
+Simple but educative tool that I use to teach about representing trees and binary tree formed ASTs. Written in rust.
