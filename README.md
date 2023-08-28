@@ -5,4 +5,4 @@ Simple but educative tool that I use to teach about representing trees and binar
 So given we insert such: [10, 5, 20, 2, 7, 15, 25]
 
 we have the output:
-[tree representation](https://github.com/LLayta/tree-to-dot/blob/main/img/example.png)
+![tree representation](https://github.com/LLayta/tree-to-dot/blob/main/img/example.png)
