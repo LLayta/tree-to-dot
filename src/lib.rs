@@ -1,5 +1,3 @@
-#![allow(dead_code, unused_variables, unused_mut, unused_imports)]
-
 // probably stupid, should associate importing with related things but whatever
 use std::{
     fs,
