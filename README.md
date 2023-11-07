@@ -9,7 +9,7 @@ So given we insert such: [10, 5, 20, 2, 7, 15, 25] then we get this:
 
 
 # Slight issue
-The graphviz API I use doesn't specialize for binary trees it specializes for something called digraphs which are in an essence just binary trees but they don't have a sense of "left and right" like binary trees do. So why is this an issue? It's an issue because for nodes that have a single edge it won't actually place the node in a direction, it'll just put it straight down. Here's an example of that:
+The API I am using has some weird edge problem whenever a subtree has a single node, it just goes downwards like a skewered tree.
 
 ![Skewered representation](https://github.com/LLayta/tree-to-dot/blob/main/img/skewered_tree.png)
 
